@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636008273035",
+    "project_id": "smart-campus-git",
+    "storage_bucket": "smart-campus-git.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636008273035:android:41bba330d1d0d1e944308e",
+        "android_client_info": {
+          "package_name": "com.saurabhjadhav.smartcampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636008273035-ksb28msh4f5dqnq0p2utuc31ah7bgprk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDakEhowJ5-ktQ5Qda7Xoy5_3WLUHowlbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636008273035-ksb28msh4f5dqnq0p2utuc31ah7bgprk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

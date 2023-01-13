@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.saurabhjadhav.smartcampus">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMARTCAMPUS"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".StaffDashBoard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.ImportantContacts.StaffContacts"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ComplaintAAP.ComplaintAAP"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Teacher.TeacherFitness.TeacherFitnessTimer"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherFitness.TeacherFitnessExercises"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherFitness.TeacherFitnessHome"
+            android:exported="false" />
+        <activity
+            android:name=".Student.ImportantContacts.StudentImportantContacts"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.StudentFItness.StudentFitnessTimer"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentFItness.StudentFitnessExercises"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentFItness.StudentFitnessHome"
+            android:exported="false" />
+        <activity
+            android:name=".Student.WomenSafety.StudentWomenSafteyDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.StudentMessage.StudentMessageSee"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.StudentGatePass.Reject"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentGatePass.SendAcceptedMessage"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentGatePass.GatepassDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentGatePass.GatepassRecevier"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentGatePass.StudentGatepass"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperInfo.DeveloperInfoTeacher"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Teacher.TeacherMessage.MessageInfo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Teacher.TeacherMessage.TeacherMessageSee"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherMessage.TeacherMessageSenderAddMessage"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherMessage.TeacherMessageSender"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherMessage.TeacherMessageView"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherWebsite.TeacherWebsiteStudent"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherWebsite.TeacherWebsiteOfficial"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherWebsite.TeacherWebsiteView"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherCampus.TeacherCampusHostelImages"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherCampus.TeacherCampusImages"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherCampus.TeacherCampus"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TODO.TeacherTODOTaskAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TODO.TeacherTODO"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperInfo.DeveloperInfo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.Elrc.Civil.CivilWeb"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Civil.Civil"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Entc.EntcWeb"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Entc.Entc"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Mechanical.MechanicalWeb"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Computer.ComputerWeb"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Chemical.ChemicalWeb"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Computer.Computer"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Mechanical.Mechanical"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.Chemical.Chemical"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem2C"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem2B"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem2A"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem1C"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem1B"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFeSem1A"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.FE.StudentElrcFEHome"
+            android:exported="false" />
+        <activity
+            android:name=".Student.Elrc.StudentElrcHome"
+            android:exported="false" />
+        <activity
+            android:name=".Student.NoticeBoard.NoticeInfo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.NoticeBoard.DisplayNotice"
+            android:exported="false" />
+        <activity
+            android:name=".Student.LimitedFeatures.LimitedFeaturesDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.TODO.StudentTODOTaskAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Student.TODO.StudentTODO"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentWebsite.StudentWebsiteStudent"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentWebsite.StudentWebsiteOfficial"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentWebsite.StudentWebsiteView"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentCampus.StudentCampusHostelImages"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentCampus.StudentCampusImages"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentCampus.StudentCampus"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentProfile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Authentication.ForgotPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Teacher.TeacherDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Student.StudentDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Authentication.Register"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

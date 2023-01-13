@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splashscreenlogo">SplashScreenLogo</string>
+    <string name="smart_campus">SMART CAMPUS</string>
+
+
+    <string name="no_worries_reset_password">No Worries Reset Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="todo_list">TODO List</string>
+    <string name="profile">PROFILE</string>
+    <string name="change_profile_pic">Change Profile Pic</string>
+    <string name="connect_to_git">DIGI GIT</string>
+    <string name="logo">GITLOGO</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_git">WELCOME TO GIT</string>
+    <string name="website">Website</string>
+    <string name="notice">Notice</string>
+    <string name="message">Message</string>
+    <string name="hostel">Hostel</string>
+    <string name="campus">Campus</string>
+    <string name="send_notice">Send Notice</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="add">Add</string>
+    <string name="entc_engineering">Entc Engineering</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="saurabhjadhav_cse_gmail_com">SaurabhJadhav.CSE@gmail.com</string>
+
+
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No</string>
+
+    <string name="i_am_a_talented_ambitious_and_hardworking_individual_with_broad_skills_and_experience_in_android_and_web_development_social_media_and_leading_projects_furthermore_i_am_adept_at_handling_multiple_tasks_on_a_daily_basis_competently_a_key_strength_is_communication_building_strong_relationships_with_people_in_order_to_deliver_the_best_results">I am a talented, ambitious and hardworking individual, with broad skills and experience in Android and Web Development, social media and leading projects. Furthermore, I am adept at handling multiple tasks on a daily basis competently. A key strength is communication; building strong relationships with people in order to deliver the best results.</string>
+
+</resources>
