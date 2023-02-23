@@ -24,6 +24,7 @@ public class StudentCampusImages extends AppCompatActivity {
     ArrayList<StudentCampusModel> list;
     StudentCampusAdapter adapter;
     ImageView backToSDash;
+
     // FIREBASE
 
     DatabaseReference root = FirebaseDatabase.getInstance().getReference("CampusImages");

@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.saurabhjadhav.smartcampus.R;
 
-public class StaffContacts extends AppCompatActivity {
+public class ComputerStaffContacts extends AppCompatActivity {
 
     Button oakSir;
 

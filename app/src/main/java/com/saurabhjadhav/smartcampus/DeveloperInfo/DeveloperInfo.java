@@ -26,6 +26,7 @@ public class DeveloperInfo extends AppCompatActivity {
 
         detailsText1 = findViewById(R.id.detailsHide);
         detailsText2 = findViewById(R.id.detailsHide2);
+        detailsText4 = findViewById(R.id.detailsHide);
         layout = findViewById(R.id.layout1);
         layout2 = findViewById(R.id.layout2);
 

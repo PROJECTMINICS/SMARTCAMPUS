@@ -23,7 +23,7 @@ public class StudentImportantContacts extends AppCompatActivity {
         staff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StudentImportantContacts.this, StaffContacts.class));
+                startActivity(new Intent(StudentImportantContacts.this, StaffDashBoard.class));
             }
         });
 
