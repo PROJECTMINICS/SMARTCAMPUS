@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Student.StudentCampus.StudentCampus">
+    tools:context=".Gatepass.GatepassRevicer">
 
     <RelativeLayout
-        android:id="@+id/CampusImagesRelativeTop"
+        android:id="@+id/SeeMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#222831"
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:fontFamily="@font/comfortaa_light"
-            android:text="Campus"
+            android:text="Gatepass"
             android:textColor="@color/white"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -34,9 +33,9 @@
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView1"
+        android:id="@+id/SeeGatepassRecycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/CampusImagesRelativeTop" />
+        android:layout_height="1000dp"
+        android:layout_below="@id/SeeMessage" />
 
 </RelativeLayout>

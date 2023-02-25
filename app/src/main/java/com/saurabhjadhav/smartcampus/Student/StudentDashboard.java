@@ -27,6 +27,8 @@ import com.saurabhjadhav.smartcampus.R;
 import com.saurabhjadhav.smartcampus.Student.Elrc.StudentElrcHome;
 import com.saurabhjadhav.smartcampus.Student.ImportantContacts.StudentImportantContacts;
 import com.saurabhjadhav.smartcampus.Student.NoticeBoard.DisplayNotice;
+import com.saurabhjadhav.smartcampus.Student.Sheild.SheildDashboard;
+import com.saurabhjadhav.smartcampus.Student.Sheild.SplashActivity;
 import com.saurabhjadhav.smartcampus.Student.StudentCampus.StudentCampus;
 import com.saurabhjadhav.smartcampus.Student.StudentFItness.StudentFitnessHome;
 import com.saurabhjadhav.smartcampus.Student.StudentGatePass.GatepassDashboard;
@@ -34,7 +36,6 @@ import com.saurabhjadhav.smartcampus.Student.StudentMessage.StudentMessageSee;
 import com.saurabhjadhav.smartcampus.Student.StudentQuotes.QuotesDashboard;
 import com.saurabhjadhav.smartcampus.Student.StudentWebsite.StudentWebsiteView;
 import com.saurabhjadhav.smartcampus.Student.TODO.StudentTODO;
-import com.saurabhjadhav.smartcampus.Student.WomenSafety.StudentWomenSafteyDashboard;
 import com.squareup.picasso.Picasso;
 
 public class StudentDashboard extends AppCompatActivity {
@@ -133,7 +134,7 @@ public class StudentDashboard extends AppCompatActivity {
         shield.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StudentDashboard.this, StudentWomenSafteyDashboard.class));
+                startActivity(new Intent(StudentDashboard.this, SplashActivity.class));
             }
         });
 

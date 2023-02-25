@@ -3,6 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.saurabhjadhav.smartcampus">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -18,6 +26,19 @@
         android:theme="@style/Theme.SMARTCAMPUS"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
+
+        <activity android:name=".Student.Sheild.LawDisplayerActivity" />
+        <activity android:name=".Student.Sheild.LawsActivity" />
+        <activity android:name=".Student.Sheild.ContactActivity" />
+        <activity android:name=".Student.Sheild.SelfDefenseActivity" />
+        <activity android:name=".Student.Sheild.SplashActivity" />
+        <activity android:name=".Student.Sheild.SheildDashboard" />
+        <activity android:name=".Student.Sheild.SmsActivity" />
+
+        <service android:name=".Student.Sheild.ServiceMine" />
+
+
         <activity
             android:name=".Gatepass.GatepassRevicer"
             android:exported="false">
@@ -92,13 +113,6 @@
         <activity
             android:name=".Student.StudentFItness.StudentFitnessHome"
             android:exported="false" />
-        <activity
-            android:name=".Student.WomenSafety.StudentWomenSafteyDashboard"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".Student.StudentMessage.StudentMessageSee"
             android:exported="false">
